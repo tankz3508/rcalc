@@ -1,7 +1,7 @@
 # rcalc
 
 A simple calculator implemented in Rust.
-It's able to parse simple, but also more complex 
+It's able to parse simple, but also more complex expressions
 
 ## Features
 
