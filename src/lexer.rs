@@ -6,7 +6,7 @@ pub fn lex_expr(expr: &String) -> Vec<TOKEN> {
 
     while let Some(ch) = chars.next() {
         match ch {
-            '0'..'9' => {
+            '0'..='9' => {
                 let mut num = ch.to_string();
 
                 while let Some(next_ch) = chars.peek() {
