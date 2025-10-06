@@ -1,6 +1,5 @@
 mod lexer;
 mod parser;
-
 use std::io;
 #[derive(Debug, Clone)]
 enum TOKEN {
